@@ -8,8 +8,14 @@ const audios = {
 
 soundButtons.forEach(function(button) {
     button.addEventListener("click", function() {
-    console.log(button.id);
-    console.log(audios[button.id]);
-    audios[button.id].play();
+    const audio = audios[button.id];
+
+    audio.play();
+
+    button.classList.add("pressed");
+
+    setTimeout(() => {
+        button.classList.remove("pressed")
+    }, 100);
 });
 });

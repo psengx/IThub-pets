@@ -66,7 +66,7 @@ h2 {
     box-shadow: 0 5px 0 #875BE2;
 }
 
-.btn:active {
+.btn.pressed {
     background: #875BE2;
     box-shadow: none;
     transform: translateY(5px);
