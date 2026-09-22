@@ -69,6 +69,5 @@ h2 {
 .btn:active {
     background: #875BE2;
     box-shadow: none;
-    position: relative;
-    top: 5px;
+    transform: translateY(5px);
 }
