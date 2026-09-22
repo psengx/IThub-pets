@@ -1,14 +1,9 @@
-@font-face {
-  font-family: "TT Firs Neue";
-  src: url("https://db.onlinewebfonts.com/t/69f2576e7ca287875bf8d089130e292c.woff2")format("woff2"),;
-  font-weight: normal;
-  font-style: normal; 
-}
+@import url(https://db.onlinewebfonts.com/c/69f2576e7ca287875bf8d089130e292c?family=TT+Firs+Neue);
 
 * {
     background-color: #000000;
     color: #ffffff;
-    font-family: 'TT Firs Neue';
+    font-family: "TT Firs Neue";
 }
 
 header div {
@@ -21,7 +16,6 @@ header div {
 
 main {
     margin: 10%;
-
 }
 
 h2 {
